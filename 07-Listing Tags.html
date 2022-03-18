@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Listing Tags</title>
+</head>
+<body>
+<!--html comment-->
+<!-- type attribute values for ul are
+	- disc (default)
+	- circle
+	- square -->
+	<ul type="square">
+		<li>Sagar</li>
+		<li>Amar</li>
+		<li>Rohit</li>
+	</ul>
+	<hr/>
+	<!-- type attribute values for ol are
+		- 1: number (default)
+		- A: uppercase alphabets
+		- a: lowercase alphabets
+		- I: uppercase roman numbers
+		- i: lowercase roman numbers-->
+	<!-- Z, AA, AZ, BA, BZ, CA, CZ-->
+	<ol type="A">
+		<li>Sagar</li>
+		<li>Amar</li>
+		<li>Rohit</li>
+		<li>Aditya</li>
+	</ol> 
+	<hr/>
+	<!--Nesting-->
+	<!-- Possibilities
+		ul>ul
+		ul>ol
+		ol>ol
+		ol>ul-->
+	<ul>
+		<li>Fruits
+			<ol>
+				<li>Apple</li>
+				<li>Mango</li>
+			</ol>
+		</li>
+		<li>Vegetable
+			<ul>
+				<li>Onion
+					<ul>
+						<li>White Onion</li>
+						<li>Red Onion</li>
+					</ul>
+				</li>
+				<li>Garlic</li>
+			</ul>
+		</li>
+	</ul>
+	<hr/>
+	<!--Description List-->
+	<dl>
+	<!--Description title/ Description term-->
+	<dt>Vegetable</dt>
+	<!--Description Data/ Desription Details-->
+	<dd>White Onion</dd>
+	<dd>Red Onion</dd>
+	<dt>Scripting Language</dt>
+	<dd>Javascript</dd>
+	<dd>VBscript</dd>
+	</dl>
+</body>
+</html>
